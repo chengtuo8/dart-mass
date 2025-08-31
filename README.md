@@ -28,14 +28,6 @@ It supports both original training and exoskeleton-assisted training environment
 ## Requirements
 
 - C++ compiler with CMake support  
-- Python 3.x  
+- Python 3.9  
 - DART Physics Engine  
-- (Optional) PyTorch / TensorFlow if extending RL training
 
-## Usage
-
-1. Build the C++ simulation environment (requires DART installed).
-2. Run training scripts:
-   ```bash
-   cd "exo training"
-   python main.py
